@@ -17,7 +17,6 @@ A smart and interactive Maze Solver that visualizes graph traversal algorithms i
 
 ## 📁 Project Structure
 
-📦DAA/
 ┣ 📂BE/ # Backend logic
 
 ┣ 📂solver/ # Maze-solving algorithms
