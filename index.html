@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
+  <title>Maze Solver</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1> Maze Solver</h1>
+    
+    <div class="controls">
+      <label class="maze-size" for="difficulty">Maze Size:</label>
+    
+<input
+id="difficulty"
+ placeholder="e.g. 10"
+  class="input"
+  min="5" max="50"
+  name="text"
+ type="text"
+/>
+    <label class="maze-size" for="algorithm">Algorithm:</label>
+      <select class="select" id="algorithm">
+        <option value="bfs">BFS</option>
+        <option value="dfs">DFS</option>
+        <option value="dijkstra">Dijkstra</option>
+        <option value="a_star">A*</option>
+      </select>
+
+      <div class="button" onclick="generateMaze()" >
+  <div class="border-line top-line"></div>
+  <div class="border-line bottom-line"></div>
+  <div class="border-line left-line"></div>
+  <div class="border-line right-line"></div>
+  <div class="inner1">
+  Generate Maze 
+    <div class="tl tri"></div>
+    <div class="tr tri"></div>
+    <div class="bl tri"></div>
+    <div class="br tri"></div>
+  </div>
+  <div class="tl tri"></div>
+  <div class="tr tri"></div>
+  <div class="bl tri"></div>
+  <div class="br tri"></div>
+  <div class="dot dl"></div>
+  <div class="dot dr"></div>
+</div>
+      
+<div class="button" onclick="solveMaze()">
+  <div class="border-line top-line"></div>
+  <div class="border-line bottom-line"></div>
+  <div class="border-line left-line"></div>
+  <div class="border-line right-line"></div>
+  <div class="inner1">
+  Solve Maze
+    <div class="tl tri"></div>
+    <div class="tr tri"></div>
+    <div class="bl tri"></div>
+    <div class="br tri"></div>
+  </div>
+  <div class="tl tri"></div>
+  <div class="tr tri"></div>
+  <div class="bl tri"></div>
+  <div class="br tri"></div>
+  <div class="dot dl"></div>
+  <div class="dot dr"></div>
+</div>
+
+
+    </div>
+
+    <div id="maze-container">
+
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
