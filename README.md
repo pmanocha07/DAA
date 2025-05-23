@@ -17,7 +17,7 @@ A smart and interactive Maze Solver that visualizes graph traversal algorithms i
 
 ## 📁 Project Structure
 
-<!-- 📦DAA/
+📦DAA/
 ┣ 📂BE/ # Backend logic
 ┣ 📂solver/ # Maze-solving algorithms
 ┣ 📜index.html # Landing page
@@ -25,4 +25,4 @@ A smart and interactive Maze Solver that visualizes graph traversal algorithms i
 ┣ 📜script.js # Frontend logic
 ┣ 📜styles.css # Page styling
 ┣ 📜manage.py # Server startup
-┣ 📜db.sqlite3 # SQLite database -->
+┣ 📜db.sqlite3 # SQLite database
