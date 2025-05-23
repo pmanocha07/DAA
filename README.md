@@ -19,10 +19,17 @@ A smart and interactive Maze Solver that visualizes graph traversal algorithms i
 
 📦DAA/
 ┣ 📂BE/ # Backend logic
+
 ┣ 📂solver/ # Maze-solving algorithms
+
 ┣ 📜index.html # Landing page
+
 ┣ 📜btn.css # Button styles
+
 ┣ 📜script.js # Frontend logic
+
 ┣ 📜styles.css # Page styling
+
 ┣ 📜manage.py # Server startup
+
 ┣ 📜db.sqlite3 # SQLite database
