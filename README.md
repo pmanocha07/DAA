@@ -1,27 +1,19 @@
-# 🧠 Maze Solver – Built with DAA Logic and Sass by Pavni Manocha
+# 🧠 Maze Solver – Built with DAA Logic by Pavni Manocha
 
 A smart and interactive Maze Solver that visualizes graph traversal algorithms in action. Designed to assist with solving complex maze patterns using the power of **DAA (Design & Analysis of Algorithms)** and clean frontend aesthetics.
-
----
 
 ## 🚀 Features
 
 - 🎯 Interactive Maze Interface (HTML + CSS + JS)
-- 🧭 Algorithm Visualizer (DFS, BFS, etc.)
+- 🧭 Algorithm Visualizer (DFS, BFS, A* Heuristics, Dijkstra)
 - 🔌 Python-Powered Backend for path solving
 - 🧠 Built as part of a DAA project with practical implementation of graph theory
-
----
 
 ## 🛠️ Tech Stack
 
 | Frontend | Backend | Algorithm |
 |----------|---------|-----------|
 | HTML, CSS, JavaScript | Python (Django/Flask*) | DFS, BFS, Graph Coloring |
-
-*Note: Replace with actual framework if needed.
-
----
 
 ## 📁 Project Structure
 
