@@ -1,4 +1,4 @@
-# 🧠 Maze Solver – Built with DAA Logic by Pavni Manocha
+# 🧠 Maze Solver – Built with DAA Logic
 
 A smart and interactive Maze Solver that visualizes graph traversal algorithms in action. Designed to assist with solving complex maze patterns using the power of **DAA (Design & Analysis of Algorithms)** and clean frontend aesthetics.
 
